@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="32" tileheight="32" nextobjectid="8">
+ <properties>
+  <property name="text" value="Does [RED]this[] taste funny to [RED]you[]?"/>
+ </properties>
+ <tileset firstgid="1" name="transparent" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="transparent.png" trans="ff00ff" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="rule" value="transparent"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="tiles-layer" width="6" height="6">
+  <data encoding="csv">
+1,1,1,1,1,1,
+1,1,1,1,1,1,
+1,1,1,1,1,1,
+1,1,1,1,1,1,
+1,1,1,1,1,1,
+1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup name="chars-layer">
+  <object id="1" name="T" x="32" y="32" width="32" height="32"/>
+  <object id="2" name="H" x="64" y="32" width="32" height="32"/>
+  <object id="3" name="I" x="96" y="32" width="32" height="32"/>
+  <object id="4" name="S" x="128" y="32" width="32" height="32"/>
+  <object id="5" name="U" x="64" y="96" width="32" height="32"/>
+  <object id="6" name="O" x="64" y="128" width="32" height="32"/>
+  <object id="7" name="Y" x="64" y="160" width="32" height="32"/>
+ </objectgroup>
+</map>
