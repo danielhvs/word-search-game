@@ -1,4 +1,4 @@
-Cross Word Game 
+Cross Word Game
 ==========================================
-  - Uses: [https://github.com/libgdx/ashley](ashley ECS framework) for game development.
-	- Usage: ```gradle run``` 
+  - Uses: [ashley ECS framework](https://github.com/libgdx/ashley) for game development.
+  - Usage: ```gradle run``` 
