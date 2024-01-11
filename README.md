@@ -1,4 +1,4 @@
-Cross Word Game
+Word Search Game
 ==========================================
   - Uses: [Gradle](https://gradle.org/) as a build tool.
   - Uses: [Libgdx](https://libgdx.com/) gaming framework, which supports multiplatform deployment.
